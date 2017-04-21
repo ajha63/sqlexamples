@@ -1,0 +1,24 @@
+You should clean up and normalize the following	data found in various sources. After normalizing the data, write and run   SQL INSERT statements to enter the rows into the database table that you created above.
+
+In a brief paper, describe the process for normalizing the data and why	you made the changes that you did.
+
+Note that dates	must be	entered	into the database in form "2016-­‐03-­‐01".	
+The primary key	field can't contain duplicates and must not be empty. 
+
+what is my work?
+It is just writing the SQL query to create the table by taking care with the validation of the IDNumber and MemberSince fields.
+
+1034, 'Smith', 'JoAnne', 'jsmith7@abcd.com', '2014/3/1'
+1035
+
+CREATE DATABASE mytestdb CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE mytestdb;
+CREATE TABLE members (
+	IDNumbers 	INT Primary key,
+	LastName 	VARCHAR(30),
+	FirstName	VARCHAR(30),
+	Email 		VARCHAR(50),
+	MemberSince 	DATE
+);
+
+INSERT INTO members (IDNumbers, LastName, FirstName, Email, MemberSince) VALUES();

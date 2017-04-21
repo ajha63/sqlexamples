@@ -1,0 +1,97 @@
+###########
+Class Nro 2
+
+Part 1
+
+Use the mysqldump command line tool to backup the data in your database.
+
+1. To access the mysqldump tool, start the mysql client command line tool.
+
+2. Use the quit command to exit to the system command prompt.
+
+3. Run mysqldump and direct the output of the backup to an appropriately named file on the U:\ drive (mapped to the My Files folder). Data saved to other locations will be lost!
+
+4. Use the File Transfer button on the top side of the Toolwire desktop window to download the backup file for submission with your assessment.
+
+5. Create a new database and restore the database from the backup to the new database.
+
+Part 2
+
+Create tables for your volunteer database to hold address, phone numbers, and email addresses for the volunteers. Insert the relevant data for the volunteers in these tables. Modify the Person table to remove the columns for the data moved to separate tables.
+
+Clase Nro 2
+===========
+
+Parte 1
+
+Utilice la herramienta de línea de comandos mysqldump para realizar una copia de seguridad de los datos en su base de datos.
+
+1. Para acceder a la herramienta mysqldump, inicie la herramienta de línea de comandos del cliente mysql.
+
+2. Utilice el comando quit para salir al símbolo del sistema.
+
+3. Ejecute mysqldump y dirija la salida de la copia de seguridad a un archivo con el nombre apropiado en la unidad U: \ (asignada a la carpeta Mis archivos). ¡Los datos guardados en otras ubicaciones se perderán!
+
+4. Utilice el botón Transferencia de archivos en la parte superior de la ventana del escritorio de Toolwire para descargar el archivo de copia de seguridad para su envío con su evaluación.
+
+5. Cree una nueva base de datos y restaure la base de datos desde la copia de seguridad a la nueva base de datos.
+
+Parte 2
+
+Crear tablas para su base de datos de voluntarios para mantener la dirección, números de teléfono y direcciones de correo electrónico para los voluntarios. Insertar los datos relevantes para los voluntarios en estas tablas. Modifique la tabla Person para quitar las columnas de los datos movidos a tablas separadas.
+
+###########
+Class Nro 3
+Part 1
+
+Perform a backup of the database using mysqldump before continuing. Be sure to put the output from the backup on the U: drive. Do not overwrite the previous backup. There is no need to restore from the backup, unless you run into problems in the following parts of the assessment.
+
+Part 2
+
+Add additional tables to the volunteer database to track hours worked per week by the volunteers and amounts of funds raised. Remember to design the tables with appropriate primary and foreign keys so you can relate these records to volunteers in the Person table. Each table should include a column to hold a date to identify the start of the week. Insert data into these tables (at least 10 rows). Submit SQL statements with assessment.
+
+Part 3:
+
+Create a query with a JOIN to display complete name, address, and contact information for all volunteers. Submit the text of the queries and results, in addition to screen shots when you turn in the assessment.
+
+
+Clase Nro 3
+============
+
+Parte 1
+
+Realice una copia de seguridad de la base de datos utilizando mysqldump antes de continuar. Asegúrese de colocar la salida de la copia de seguridad en la unidad U :. No sobrescriba la copia de seguridad anterior. No es necesario restaurar desde la copia de seguridad, a menos que tenga problemas en las siguientes partes de la evaluación.
+
+Parte 2
+
+- Agregar tablas adicionales a la base de datos de voluntarios para rastrear horas trabajadas por semana por los voluntarios y las cantidades de fondos recaudados. Recuerde diseñar las tablas con las claves primarias y externas apropiadas para que pueda relacionar estos registros con los voluntarios en la tabla Persona. Cada tabla debe incluir una columna que contenga una fecha para identificar el inicio de la semana. Inserta datos en estas tablas (al menos 10 filas).
+  Envíe sentencias SQL con evaluación.
+
+Parte 3:
+
+- Cree una consulta con una JOIN para mostrar el nombre completo, la dirección y la información de contacto de todos los voluntarios.
+  Envíe el texto de las consultas y los resultados, además de las capturas de pantalla cuando envíe la evaluación.
+
+
+############
+Class Nro. 4
+
+Part 1
+
+As part of developing a Web application to track volunteer activities, create a table for the volunteer database that tracks user names for the volunteers who log in to the system. Submit the SQL used to create the table. Use a SELECT INTO query with a SQL string function to create user names for the volunteers and insert them into the new table. Submit the SQL to create the new table, the SELECT INTO query, and the result of a SELECT query to show the contents as part of this assessment.
+
+Part 2
+
+Using SQL aggregate functions such as COUNT(), MIN(), and MAX(), write three queries to report on various aspects of the organization's volunteers.
+
+
+Clase Nro. 4
+============
+
+Parte 1
+
+Como parte del desarrollo de una aplicación Web para realizar un seguimiento de las actividades de los voluntarios, cree una tabla para la base de datos de voluntarios que rastrea los nombres de usuario de los voluntarios que inician sesión en el sistema. Envíe el SQL utilizado para crear la tabla. Utilice una consulta SELECT INTO con una función de cadena SQL para crear nombres de usuario para los voluntarios e insertarlos en la nueva tabla. Envíe el SQL para crear la nueva tabla, la consulta SELECT INTO y el resultado de una consulta SELECT para mostrar el contenido como parte de esta evaluación.
+
+Parte 2
+
+Utilizando funciones de agregación de SQL como COUNT (), MIN () y MAX (), escriba tres consultas para informar sobre varios aspectos de los voluntarios de la organización.
